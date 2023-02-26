@@ -10,6 +10,8 @@ body {
     justify-content: center;
     background: url('https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80');
     background-size: cover;
+    text-align: center;
+    transition: filter 0.7s;
 }
 
 h1 {
@@ -50,10 +52,12 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background: url('https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background: url('https://images.unsplash.com/photo-1516542076529-1ea3854896f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80');
     background-size: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    opacity: 1;
+    transition: all 0.7s;
 }
 
 h4 {
@@ -100,4 +104,6 @@ label {
 
 .active.popup-container {
     visibility: hidden;
+    opacity: 0;
+    top: 10%;
 }
